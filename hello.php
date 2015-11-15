@@ -2,6 +2,7 @@
 <head>
 	<title>Web App Sederhana</title>
 </head>
+<body>
 	<?php
 	include("connect.php");
 	if (!empty($_POST)) {
@@ -36,4 +37,5 @@
 	}
 	echo "</table>";
 	?>
+</body>
 </html>
