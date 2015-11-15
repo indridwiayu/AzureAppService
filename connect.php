@@ -1,9 +1,9 @@
 <?php
 
 $hostname = "br-cdbr-azure-south-a.cloudapp.net";
-$username = "b762cd3ceb9691";
-$password = "c5959554";
-$database_name = "dbien";
+$username = "ba68174dc5f0d8";
+$password = "56b74823";
+$database_name = "db_webapp";
 
 $conn = mysql_connect($hostname, $username, $password)
 		or die ("Error menghubungkan ke host database")
