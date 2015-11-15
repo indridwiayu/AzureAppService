@@ -10,7 +10,3 @@
 		<input type="submit" value="Enter"/>
 	</form>
 </html>
-=======
-<?php
-echo "Hello, Azure!";
-?>
