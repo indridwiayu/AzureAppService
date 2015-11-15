@@ -14,7 +14,7 @@
 		echo 'Email : ' . $email;
 
 		// Insert data
-        $sql_insert = "INSERT INTO registration_tbl(name, email, date) VALUES('$nama', '$email', '$date')";
+        $sql_insert = "INSERT INTO registration_tbl (name, email, date) VALUES ('$nama', '$email', '$date')";
         mysql_query($sql_insert) or die (mysql_error());
 	}
 
